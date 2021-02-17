@@ -20,3 +20,11 @@ body {
   --light-gray: hsl(204, 43%, 93%);
   --grayish-blue: hsl(218, 22%, 67%);
 }
+
+.price {
+  
+  @media only screen and (min-width: 62.5em) {
+    display: grid;
+  }
+
+}
