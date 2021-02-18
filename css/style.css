@@ -75,25 +75,26 @@ h2 {
 }
 
 .subscription {
-  background-color: var(--cyan);
+  background-color: 	hsl(179, 61%, 44%);
 }
 
 .why {
-  background-color: var(--light-cyan);
+  background-color: hsl(179, 47%, 52%);
 }
 
 .why h2 {
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   color: var(--light-gray);
 }
 
 .why li {
   list-style-type: none;
-  font-size: 0.85rem;
-  line-height: 1.75;
-  color: var(--light-gray);
+  font-size: 0.80rem;
+  line-height: 1.45;
+  color:	hsl(182, 63%, 79%);
 }
 
 .why ul {
+  margin-bottom: 0;
   padding-left: 0;
 }
