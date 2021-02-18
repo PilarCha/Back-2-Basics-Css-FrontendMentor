@@ -78,6 +78,42 @@ h2 {
   background-color: 	hsl(179, 61%, 44%);
 }
 
+.subscription a {
+  text-align: center;
+  display: inline-block;
+  border-radius: 0.25rem;
+  background-color: var(--bright-yellow);
+  width: 16.25rem;
+  height:3rem;
+  color: var(--white);
+  font-size: 1.1rem;
+
+  box-shadow: 1px 3px 12px #888888;
+}
+
+.subscription h2 {
+  font-size: 1.2rem;
+  color: var(--light-gray);
+}
+
+.subscription__money {
+  font-size: 2rem;
+  font-weight: 510;
+  color:var(--light-gray)
+}
+
+.subscription__month {
+  color:hsl(182, 63%, 79%);
+  margin-left: .5rem;
+}
+
+.subscription p {
+  font-size: 1.1rem;
+  color: var(--light-gray);
+  margin-bottom: 1.5rem;
+  margin-top:0.4rem;
+}
+
 .why {
   background-color: hsl(179, 47%, 52%);
 }
