@@ -23,6 +23,7 @@ body {
   --bright-yellow: hsl(71, 73%, 54%);
   --light-gray: hsl(204, 43%, 93%);
   --grayish-blue: hsl(218, 22%, 67%);
+  --dark-yellow: hsl(71,73%,48%);
   --paddingX: 1.8rem;
   --paddingY: 1.5rem;
 }
@@ -43,6 +44,7 @@ a {
 
 h1,h2,h3 {
   margin-top: 0;
+  line-height: 1.15;
 }
 
 h2 {
@@ -72,6 +74,7 @@ h2 {
 .community p {
   font-size: 0.85rem;
   line-height: 1.75;
+  margin-bottom: 0;
 }
 
 .subscription {
@@ -80,15 +83,17 @@ h2 {
 
 .subscription a {
   text-align: center;
-  display: inline-block;
+  display: block;
   border-radius: 0.25rem;
   background-color: var(--bright-yellow);
-  width: 16.25rem;
-  height:3rem;
+  padding:0.75rem;
   color: var(--white);
   font-size: 1.1rem;
+  box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+}
 
-  box-shadow: 1px 3px 12px #888888;
+.subscription a:hover {
+  background-color: var(--dark-yellow);
 }
 
 .subscription h2 {
@@ -96,15 +101,17 @@ h2 {
   color: var(--light-gray);
 }
 
-.subscription__money {
+.subscription span{
   font-size: 2rem;
   font-weight: 510;
-  color:var(--light-gray)
+  color:var(--light-gray);
+  margin-right:0.8rem;
 }
 
-.subscription__month {
+.subscription__price{
   color:hsl(182, 63%, 79%);
-  margin-left: .5rem;
+  display:flex;
+  align-items: center;
 }
 
 .subscription p {
