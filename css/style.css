@@ -73,3 +73,27 @@ h2 {
   font-size: 0.85rem;
   line-height: 1.75;
 }
+
+.subscription {
+  background-color: var(--cyan);
+}
+
+.why {
+  background-color: var(--light-cyan);
+}
+
+.why h2 {
+  font-size: 1.25rem;
+  color: var(--light-gray);
+}
+
+.why li {
+  list-style-type: none;
+  font-size: 0.85rem;
+  line-height: 1.75;
+  color: var(--light-gray);
+}
+
+.why ul {
+  padding-left: 0;
+}
